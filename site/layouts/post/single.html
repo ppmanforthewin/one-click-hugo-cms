@@ -8,6 +8,7 @@
     </div>
     <div class="cms mw6">
       <p>{{ .Description }}</p>
+      <a>https://www.youtube.com/{{ .Youtube }}</a>
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       {{ .Content }}
     </div>
